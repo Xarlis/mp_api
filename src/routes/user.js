@@ -25,7 +25,7 @@ router.post('/login', (req, res) => {
                     result[0].id + '","nome":"' + result[0].nome +
                     '","email":"' + result[0].email + '"}'
                 const response = JSON.parse(json)
-                res.status(200).send(response)
+                res.status(200).send(response) 
             }
             
         }
